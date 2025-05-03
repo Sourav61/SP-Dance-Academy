@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+input, textarea {
+    width: 600px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+button {
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}

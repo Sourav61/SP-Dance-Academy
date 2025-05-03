@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+}
+
+#navbar .logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#navbar .logo img {
+    height: 60px;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover {
+    color: red;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    height: 560px;
+    background: center/cover no-repeat url('../static/images/dance-academy.jpeg');
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#introSection .small {
+    font-size: 2rem;
+}
+
+#sponsorsSection {
+    background-color: coral;
+    height: 300px;
+}
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+
+#missionSection {
+    background-color: antiquewhite;
+    padding-bottom: 40px;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+
+.list-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.list-item img {
+    width: 50%;
+    aspect-ratio: 1;
+    max-width: 150px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    padding: 20px 40px 0;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+#sponsors {
+    display: flex;
+    justify-content: center;
+}
+
+#sponsors img {
+    height: 200px;
+}
+
+#footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
